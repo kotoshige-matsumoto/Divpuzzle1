@@ -1,0 +1,33 @@
+.header-div {
+  width: 400px;
+  height: 100px;
+  background-color: #ff0000;
+}
+
+.main-div {
+  float: left;
+  height: 250px;
+}
+
+.main-div.left {
+  width: 150px;
+  background-color: #00ff1e;
+}
+
+.main-div.right {
+  width: 250px;
+  background-color: #3300ff;
+}
+
+.footer-div {
+  width: 400px;
+  height: 100px;
+  background-color: #ffe600;
+  clear: both;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
