@@ -5,17 +5,20 @@
 }
 
 .main-div {
-  float: left;
-  height: 250px;
+  width: 250px;
 }
 
 .main-div.left {
+  float: left;
   width: 150px;
+  height: 250px;
   background-color: #00ff1e;
 }
 
 .main-div.right {
+  float: left;
   width: 250px;
+  height: 250px;
   background-color: #3300ff;
 }
 
@@ -23,7 +26,6 @@
   width: 400px;
   height: 100px;
   background-color: #ffe600;
-  clear: both;
 }
 
 .clearfix::after {
